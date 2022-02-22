@@ -1,0 +1,23 @@
+     sudo apt update
+     sudo apt upgrade
+     sudo apt install python3-pip
+     pip3 --version
+     mkdir django-app
+     cd django-app/
+     git --version
+     git clone https://github.com/balu1391/mysql_django.git
+     cd mysql_django/
+     settings.py
+     vi settings.py(enter database details)
+     python3 manage.py
+     pip install django-widget_tweaks
+     python3 manage.py
+     pip install mysqlclient
+     sudo apt-get install python3-dev default-libmysqlclient-dev build-essential
+     pip install mysqlclient
+     python3 manage.py runserver
+     mysql -h rdsdb.cjs0dwnk6jsz.ap-south-1.rds.amazonaws.com -u admin -p
+     python3 manage.py runserver
+     python3 manage.py makemigrations
+     python3 manage.py migrate
+     python3 manage.py runserver 0.0.0.0:3000
